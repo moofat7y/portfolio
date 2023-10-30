@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+    <title>moo.fat7y</title>
+</head>
+<body class="bg-primary" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="72">
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- header -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <header class="py-3 fixed-top bg-primary">
+        <div class="contener px-md-5 d-flex justify-content-between align-items-center">
+            <a href="" class="navbar-brand text-secondary">
+                portfolio
+            </a>
+
+            <i role="button" class="bi bi-brightness-high text-light  fs-5" id="darklight"></i>
+        </div>
+    </header>
+
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- navbar and menu -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <nav class="navbar fixed-bottom w-100" id="headnav">
+        <ul class="navbar-nav flex-row rounded-pill" id="navbar">
+            <li class="nav-item">
+                <a href="#home" class="nav-link active">
+                    <i class="bi bi-house-door"></i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#about" class="nav-link">
+                    <i class="bi bi-person"></i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#skills" class="nav-link">
+                    <i class="bi bi-book"></i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#work" class="nav-link">
+                    <i class="bi bi-briefcase"></i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">
+                    <i class="bi bi-chat-dots"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- home -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <section class="home-div d-flex align-items-end justify-content-center text-center py-0" id="home">
+        <div class="contener">
+            <div class="social px-md-5 contener position-absolute bottom-0 d-flex justify-content-between">
+                <div class="links d-flex flex-column" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">
+                    <a class="bg-color text-secondary" href="https://www.linkedin.com/in/mohamed-fathy-0b1629213/"><i class="bi bi-linkedin"></i></a>
+                    <a class="bg-color text-secondary" href="https://web.facebook.com/mohammed.fathy.562114" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a class="bg-color text-secondary" href="https://www.instagram.com/moo.fat7y/" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="scrolldown ">
+                    <a href="#about" class="nav-link text-secondary" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500"><i class="bi bi-mouse"></i><span>scroll down</span></a>
+                </div>
+            </div>
+            <div class="home">
+                <div class="main-header" data-aos="fade-down" data-aos-duration="3000">
+                    <span class="text-light fs-6">Hello,I'm</span>
+                    <h1 class="text-light fs-2 fw-bolder">Mohamed Fathy</h1>
+                    <span class="text-color fs-6">Frontend Developer</span>
+                </div>
+
+                <div class="btn-group mt-5" data-aos="fade-down" data-aos-duration="3000">
+                    <a download="CV" href="./public/Mohammed-Fathy.pdf" class="btn btn-outline-secondary py-2 px-3 rounded-2 me-4">Download CV</a>
+                    <a href="#about" class="btn btn-secondary text-primary py-2 px-3 rounded-2">About me</a>
+                </div>
+
+                <div class="my-photo mx-auto mt-5 position-relative" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="400">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- about -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <section class="about-div" id="about">
+        <div class="contener px-md-5">
+            <div class="section-header text-center py-4 mb-5">
+                <span class="text-color fs-6">My Intro</span>
+                <h2 class="text-secondary fs-3">About Me</h2>
+            </div>
+            <div class="about row justify-content-between">
+                <div class="photo mb-4 mb-lg-0 col-lg-5 d-flex justify-content-center  justify-content-lg-end" data-aos="zoom-in-right" data-aos-duration="3000">
+                    <div class="img loading="lazy" position-relative">
+                        <div class="slider d-flex">
+                            <div class="layer2"></div>
+                            <div class="layer1"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills d-flex flex-column justify-content-between col-lg-6">
+                    <div class="skills-contener row pb-4 mb-2 mb-md-0">
+                        <div class="px-1 col-sm-4 col-12 mb-2 mb-sm-0"data-aos="fade-up" data-aos-duration="3000" data-aos-delay="">
+                            <div class="box bg-color w-100 col-lg-4 d-flex flex-column align-items-center py-3 rounded-3 justify-content-between" ">
+                                <i class="bi bi-award text-secondary fs-4"></i>
+                                <h4 class=" text-light fs-7 m-0">Experience</h4>
+                                <p class="text-color fs-8 m-0">2 year working</p>
+                            </div>                            
+                        </div>
+                       
+                        <div class="px-1 col-sm-4 mb-2 col-6 mb-sm-0"data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+                            <div class="box bg-color w-100 col-lg-4 d-flex flex-column align-items-center py-3 rounded-3 justify-content-between" ">
+                                <i class="bi bi bi-bag-check text-secondary fs-4"></i>
+                                <h4 class=" text-light fs-7 m-0">Completed</h4>
+                                <p class="text-color fs-8 m-0">7 + projects</p>
+                            </div>                            
+                        </div>
+
+                        <div class="px-1 col-sm-4 mb-2 col-6 mb-sm-0"data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800">
+                            <div class="box bg-color w-100 col-lg-4 d-flex flex-column align-items-center py-3 rounded-3 justify-content-between" >
+                                <i class="bi bi bi-headset text-secondary fs-4"></i>
+                                <h4 class=" text-light fs-7 m-0">Support</h4>
+                                <p class="text-color fs-8 m-0">Online 24/7</p>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <p class="text-color m-0 text-center text-lg-start mb-4 mb-lg-0">
+                        Frontend developer,I create web pages with UI / UX user interface,I have years of experience and many clients are happy with the projects carried out.
+                    </p>
+
+                    <a href="#contact" class="mx-auto mx-lg-0 btn btn-secondary py-2 px-2 rounded-3 mb-lg-0 ">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+        <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- skills -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <section class="exp-div" id="skills">
+        <div class="contener px-md-5">
+            <div class="section-header text-center py-4 mb-5">
+                <span class="text-color fs-6">My Ablities</span>
+                <h2 class="text-secondary fs-3">My Experience</h2>
+            </div>
+            <div class="exp row">
+                <div class="left col-sm-6 mb-2 mb-lg-0" >
+                    <div class="box px-3 px-sm-2 px-lg-4 px-xl-5" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="content bg-color py-5 px-3 px-md-4 rounded-4 row justify-content-between">
+                            <h5 class="text-center text-secondary mb-5">Frontend Developer</h4>
+                            <div class="leftside col-5">
+                                <div class="sk d-flex mb-3">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">HTML</span>
+                                        <span class="fs-8 text-color">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="sk d-flex mb-3">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">Css</span>
+                                        <span class="fs-8 text-color">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="sk d-flex">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">JavaScript</span>
+                                        <span class="fs-8 text-color">Intermidiate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rightside col-5">
+                                <div class="sk d-flex mb-3">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">Bootstrap</span>
+                                        <span class="fs-8 text-color">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="sk d-flex mb-3">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">Git</span>
+                                        <span class="fs-8 text-color">Intermidiate</span>
+                                    </div>
+                                </div>
+
+                                <div class="sk d-flex ">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">React</span>
+                                        <span class="fs-8 text-color">Intermidiate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right col-sm-6 mb-lg-0">
+                    <div class="box px-3 px-sm-2 px-lg-4 px-xl-5" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="content bg-color py-5 px-3 px-md-4 rounded-4 row justify-content-between">
+                            <h5 class="text-center text-secondary mb-5">Backend Developer</h4>
+                            <div class="leftside col-5">
+                                <div class="sk d-flex mb-3">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">MySql</span>
+                                        <span class="fs-8 text-color">Intermidiate</span>
+                                    </div>
+                                </div>
+
+                                <div class="sk d-flex mb-3">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">MongoDB</span>
+                                        <span class="fs-8 text-color">Intermidiate</span>
+                                    </div>
+                                </div>
+
+                                <div class="sk d-flex">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">Nodejs</span>
+                                        <span class="fs-8 text-color">Intermidiate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rightside col-5">
+                                <div class="sk d-flex mb-3">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">Json</span>
+                                        <span class="fs-8 text-color">Advanced</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="sk d-flex mb-3">
+                                    <div class="icon me-2">
+                                        <i class="bi bi-check-circle-fill text-secondary"></i>
+                                    </div>
+                                    <div class="text text-light">
+                                        <span class="fs-7 mb-1 d-block lh-sm">Express</span>
+                                        <span class="fs-8 text-color">Intermidiate</span>
+                                    </div>
+                                </div>
+
+
+                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+            <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- offers -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <section class="offers-div">
+        <div class="contener px-md-5">
+            <div class="section-header text-center py-4 mb-5">
+                <span class="text-color fs-6">My Services</span>
+                <h2 class="text-secondary fs-3">What I Offer</h2>
+            </div>
+
+            <div class="off row px-lg-5 px-2 mx-lg-4">
+                <div class="box px-md-4 px-2 col-sm-4 mb-3 mb-sm-0  col-6 order-2 order-sm-0" >
+                    <div class="content px-3 px-md-4 rounded-4 pb-4 pt-4 bg-color "data-aos="fade-up-right" data-aos-duration="2000">
+                        <p class="fs-3 text-light mb-5 mt-5">Product <br> Designer</p>
+                        <span class="goto d-flex align-items-center text-secondary"><a href="" class="text-decoration-none link-secondary me-2" data-bs-target="#product" data-bs-toggle="modal">Read More</a><i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="box px-md-4 px-2 col-sm-4 mb-3 mb-sm-0 order-1">
+                    <div class="content px-3 rounded-4 px-md-4 pb-4 pt-4 bg-color " data-aos="fade-up" data-aos-duration="2000">
+                        <p class="fs-3 text-light mb-5 mt-5">UI/UX <br> Designer</p>
+                        <span class="goto d-flex align-items-center text-secondary"><a href="" class="text-decoration-none link-secondary me-2" data-bs-toggle="modal" data-bs-target="#uiux">Read More</a><i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="box px-md-4 px-2 col-sm-4 mb-3 mb-sm-0 col-6 order-3">
+                    <div class="content px-3 rounded-4 px-md-4 pb-4 pt-4 bg-color " data-aos="fade-up-left" data-aos-duration="2000">
+                        <p class="fs-3 text-light mb-5 mt-5">Visual <br> Designer</p>
+                        <span class="goto d-flex align-items-center text-secondary"><a href="" class="text-decoration-none link-secondary me-2" data-bs-target="#visual" data-bs-toggle="modal">Read More</a><i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////// -->
+                                        <!-- modall -->
+        <!-- /////////////////////////////////////////////////// -->
+        <div class="modal fade" id="visual" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content rounded-4 bg-primary">
+                    <div class="modal-header border-bottom-0 p-4">
+                        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body px-2 px-sm-4 pt-0">
+                        <h4 class="text-secondary text-center mt-2 mb-3">Visual Designer</h4>
+
+                        <p class="text-color text-center d-block px-md-5 mb-4">Service with more than 3 years of experience. Providing quality work for clients and companies.</p>
+
+                        <div class="lines">
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I developed the user interface.</p>
+                            </div>
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">Web page development.</p>
+                            </div>
+
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I create ux element interactions.</p>
+                            </div>
+
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I position your company brand.</p>
+                            </div>
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">Design and mockups of products for companies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="uiux" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content rounded-4 bg-primary">
+                    <div class="modal-header border-bottom-0 p-4">
+                        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body px-2 px-sm-4 pt-0">
+                        <h4 class="text-secondary text-center mt-2 mb-3">Ui/Ux Designer</h4>
+
+                        <p class="text-color text-center d-block px-md-5 mb-4">Service with more than 3 years of experience. Providing quality work for clients and companies.</p>
+
+                        <div class="lines">
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I developed the user interface.</p>
+                            </div>
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">Web page development.</p>
+                            </div>
+
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I create ux element interactions.</p>
+                            </div>
+
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I position your company brand.</p>
+                            </div>
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">Design and mockups of products for companies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="product" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content rounded-4 bg-primary">
+                    <div class="modal-header border-bottom-0 p-4">
+                        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body px-2 px-sm-4 pt-0">
+                        <h4 class="text-secondary text-center mt-2 mb-3">Product Designer</h4>
+
+                        <p class="text-color text-center d-block px-md-5 mb-4">Service with more than 3 years of experience. Providing quality work for clients and companies.</p>
+
+                        <div class="lines">
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I developed the user interface.</p>
+                            </div>
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">Web page development.</p>
+                            </div>
+
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I create ux element interactions.</p>
+                            </div>
+
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">I position your company brand.</p>
+                            </div>
+
+                            <div class="line d-flex align-items-center mb-1">
+                                <i class="bi bi-check2 text-secondary me-2 fs-4 fw-bold"></i>
+                                <p class="text-color mb-0">Design and mockups of products for companies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- works -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <section class="works-div" id="work">
+        <div class="contener px-md-5">
+            <div class="section-header text-center py-4 mb-5">
+                <span class="text-color fs-6">My portfolio</span>
+                <h2 class="text-secondary fs-3">Recent Works</h2>
+            </div>
+
+            <div class="works px-lg-5">
+                <ul class="list-group list-group-horizontal justify-content-center">
+                    <li class="list-group-item active border-0" data-filter="all">All</li>
+                    <li class="list-group-item border-0" data-filter="responsive">Responsive</li>
+                    <li class="list-group-item border-0" data-filter="web">Web</li>
+
+                  </ul>
+
+                  <div class="flex row filtered mt-5 pt-5">
+                    <div class="it px-4 col-sm-6 mb-4 responsive all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item  bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy" src="/photos/Screenshot 2022-07-27 074833.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">Hospital Web</span>
+                                <span class="goto d-flex align-items-center text-secondary"><a href="https://startling-ganache-988d74.netlify.app/" target="_blank" class="text-decoration-none link-secondary me-2 fs-7">Demo</a><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="it px-4 col-sm-6 mb-4 responsive all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item  bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy"  src="\photos\Screenshot 2023-05-18 200721.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">Dots Portfolio</span>
+                                <span class="goto d-flex align-items-center text-secondary"><a href="https://dots-portfolio.vercel.app/" target="_blank" class="text-decoration-none link-secondary me-2 fs-7">Demo</a><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="it px-4 col-sm-6 mb-4 responsive all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item  bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy" src="\photos\Screenshot 2023-05-18 200744.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">E-Commerce</span>
+                                <span class="goto d-flex align-items-center text-secondary"><a href="https://ecommerce-moofat7y.vercel.app/" target="_blank" class="text-decoration-none link-secondary me-2 fs-7">Demo</a><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="it px-4 col-sm-6 mb-4 web all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy" src="/photos/FsWUqRoOsPu.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">Whatsapp Web</span>
+                                <span class="goto d-flex align-items-center text-secondary" id="whatsapp"><span type="button" class="text-decoration-none link-secondary me-2 fs-7" id="app">Demo</span><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="it px-4 col-sm-6  mb-4 mb-lg-0 responsive all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy" src="/photos/Screenshot 2022-07-27 074706.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">Hotels Web</span>
+                                <span class="goto d-flex align-items-center text-secondary"><a href="https://guileless-pegasus-a6797c.netlify.app/" target="_blank" class="text-decoration-none link-secondary me-2 fs-7">Demo</a><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="it px-4 mb-4 col-sm-6  responsive all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy" src="/photos/Screenshot 2022-07-27 074807.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">Education Web</span>
+                                <span class="goto d-flex align-items-center text-secondary"><a href="https://astounding-zuccutto-327ce4.netlify.app/" target="_blank" class="text-decoration-none link-secondary me-2 fs-7">Demo</a><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="it px-4 col-sm-6 mb-4  responsive all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy" src="/photos/Screenshot 2022-07-27 074615.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">GYM Web</span>
+                                <span class="goto d-flex align-items-center text-secondary"><a href="https://nimble-pothos-25a504.netlify.app/" target="_blank" class="text-decoration-none link-secondary me-2 fs-7">Demo</a><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="it px-4 col-sm-6 mb-4  responsive all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy" src="/photos/Screenshot 2023-10-30 210832.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">WEJDA</span>
+                                <span class="goto d-flex align-items-center text-secondary"><a href="https://wejda.vercel.app/" target="_blank" class="text-decoration-none link-secondary me-2 fs-7">Demo</a><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="it px-4 col-sm-6  mb-4 responsive all" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="item bg-color p-3 rounded-4">
+                            <div class="overflow-hidden rounded-4">
+                                <img loading="lazy" src="/photos/Screenshot 2023-01-05 221625.png" alt="" class="w-100 h-100 rounded-4">
+                            </div>
+
+                            <div class="details mt-4">
+                                <span class="fs-6 mb-1 text-light d-block">Social App</span>
+                                <span class="goto d-flex align-items-center text-secondary"><a href="https://social-app-moofat7y.vercel.app/" target="_blank" class="text-decoration-none link-secondary me-2 fs-7">Demo</a><i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- toast -->
+                    <div class="toast position-fixed top-50 end-0 align-items-center text-white bg-color " role="alert" aria-live="assertive" aria-atomic="true" id="apptoast">
+                        <div class="d-flex">
+                          <div class="toast-body text-secondary">
+                            This app not available for mobile users.
+                          </div>
+                          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>    
+    </section>
+
+
+
+
+
+        <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- testimonial -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <section class="test-div" id="test">
+        <div class="contener px-md-5">
+            <div class="section-header text-center py-4 mb-5">
+                <span class="text-color fs-6">My Clients Say</span>
+                <h2 class="text-secondary fs-3">Testimonial</h2>
+            </div>
+
+            <div class="test">
+                <div class="carousel slide px-md-5" data-bs-ride="carousel" id="says">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <div class="row">
+                                <div class="box px-4 col-sm-6 mb-3 mb-lg-3">
+                                    <div class="content bg-color p-4 rounded-4">
+                                        <div class="imagebox rounded-circle overflow-hidden">
+                                            <img loading="lazy" src="/photos/man-portrait-businessman-male-happy-adult-handsome-face-guy.jpg" class="w-100 h-100 d-block img loading="lazy"" alt="">
+                                        </div>
+    
+                                        <div class="say mt-4">
+                                            <span class="text-light fs-6 mb-1 d-block">Jhon Doe</span>
+                                            <p class="text-color fs-8 mb-0">A really good job, All aspects of the project were followed step by step and with good result.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="box px-4 col-sm-6 mb-3 mb-lg-3 d-none d-sm-block">
+                                    <div class="content bg-color p-4 rounded-4">
+                                        <div class="imagebox rounded-circle overflow-hidden">
+                                            <img loading="lazy" src="/photos/portrait-beautiful-young-woman-standing-grey-wall_231208-10760.webp" class="w-100 h-100 d-block img loading="lazy"" alt="">
+                                        </div>
+    
+                                        <div class="say mt-4">
+                                            <span class="text-light fs-6 mb-1 d-block">Sara Cill</span>
+                                            <p class="text-color fs-8 mb-0">A really good job, All aspects of the project were followed step by step and with good result.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="row">
+                                <div class="box px-4 col-sm-6 mb-3 mb-lg-3 d-none d-sm-block">
+                                    <div class="content bg-color p-4 rounded-4">
+                                        <div class="imagebox rounded-circle overflow-hidden">
+                                            <img loading="lazy" src="/photos/man-portrait-businessman-male-happy-adult-handsome-face-guy.jpg" class="w-100 h-100 d-block img loading="lazy"" alt="">
+                                        </div>
+    
+                                        <div class="say mt-4">
+                                            <span class="text-light fs-6 mb-1 d-block">Jhon Doe</span>
+                                            <p class="text-color fs-8 mb-0">A really good job, All aspects of the project were followed step by step and with good result.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="box px-4 col-sm-6 mb-3 mb-lg-3 ">
+                                    <div class="content bg-color p-4 rounded-4">
+                                        <div class="imagebox rounded-circle overflow-hidden">
+                                            <img loading="lazy" src="/photos/portrait-woman-female-young-person-attractive-adult-model-lady.jpg" class="w-100 h-100 d-block img loading="lazy"" alt="">
+                                        </div>
+    
+                                        <div class="say mt-4">
+                                            <span class="text-light fs-6 mb-1 d-block">Paula Vusy</span>
+                                            <p class="text-color fs-8 mb-0">A really good job, All aspects of the project were followed step by step and with good result.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+
+                        <div class="carousel-item">
+
+                            <div class="row">
+                                <div class="box px-4 col-sm-6 mb-3 mb-lg-3 d-none d-sm-block">
+                                    <div class="content bg-color p-4 rounded-4">
+                                        <div class="imagebox rounded-circle overflow-hidden">
+                                            <img loading="lazy" src="/photos/portrait-woman-female-young-person-attractive-adult-model-lady.jpg" class="w-100 h-100 d-block img loading="lazy"" alt="">
+                                        </div>
+    
+                                        <div class="say mt-4">
+                                            <span class="text-light fs-6 mb-1 d-block">Paula Vusy</span>
+                                            <p class="text-color fs-8 mb-0">A really good job, All aspects of the project were followed step by step and with good result.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="box px-4 col-sm-6 mb-3 mb-lg-3 ">
+                                    <div class="content bg-color p-4 rounded-4">
+                                        <div class="imagebox rounded-circle overflow-hidden">
+                                            <img loading="lazy" src="/photos/portrait-beautiful-young-woman-standing-grey-wall_231208-10760.webp" class="w-100 h-100 d-block img loading="lazy"" alt="">
+                                        </div>
+    
+                                        <div class="say mt-4">
+                                            <span class="text-light fs-6 mb-1 d-block">Sara Cill</span>
+                                            <p class="text-color fs-8 mb-0">A really good job, All aspects of the project were followed step by step and with good result.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-indicators mb-sm-0">
+                            <button class="active" type="button" data-bs-target="#says" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#says" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#says" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- contact -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+   <section class="contact-div" id="contact">
+    <div class="contener px-md-5">
+        <div class="section-header text-center py-4 mb-5">
+            <span class="text-color fs-6">Get in touch</span>
+            <h2 class="text-secondary fs-3">Contact Me</h2>
+        </div>
+
+        <div class="contact row px-lg-5">
+            <div class="talk px-4 col-sm-6  mb-lg-3">
+                <div class="box px-md-4 mb-5 mb-sm-0" data-aos="fade-right" data-aos-duration="2000">
+                    <h5 class="text-light text-center mb-4">Talk to me</h5>
+                    <div class="card border-0 mb-3 p-3 rounded-4 bg-color align-items-center">
+                        <i class="bi bi-envelope text-light fs-4"></i>
+                        <span class="d-block text-light fs-8">Email</span>
+                        <span class="text-color fs-8 mb-3 d-block text-break text-center">mohammedbelal802@gmail.com</span>
+                        <span class="goto d-flex align-items-center text-secondary"><a href="mailto:mohammedbelal802@gmail.com" target="_blank" class="text-decoration-none link-secondary me-2 fs-8" id="app">Write me</a><i class="bi bi-arrow-right fs-8"></i></span>
+                    </div>
+
+                    <div class="card border-0 mb-3 p-3 rounded-4 bg-color align-items-center">
+                        <i class="bi bi-whatsapp text-light fs-4"></i>
+                        <span class="d-block text-light fs-8">Whatsapp</span>
+                        <span class="text-color fs-8 mb-3 d-block">201-210-192-476</span>
+                        <span class="goto d-flex align-items-center text-secondary"><a href="https://api.whatsapp.com/send?phone=+201210192476&text=Hello Mohamed" target="_blank" class="text-decoration-none link-secondary me-2 fs-8" id="app">Write me</a><i class="bi bi-arrow-right fs-8"></i></span>
+                    </div>
+
+                    <div class="card border-0 p-3 rounded-4 bg-color align-items-center">
+                        <i class="bi bi-messenger text-light fs-4"></i>
+                        <span class="d-block text-light fs-8">Messenger</span>
+                        <span class="text-color fs-8 mb-3 d-block">mohammed.fathy.562114</span>
+                        <span class="goto d-flex align-items-center text-secondary"><a href="https://m.me/mohammed.fathy.562114"  target="_blank" class="text-decoration-none link-secondary me-2 fs-8" id="app">Write me</a><i class="bi bi-arrow-right fs-8"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form px-4 col-sm-6 mb-3 mb-lg-3">
+                <div class="box " data-aos="fade-left" data-aos-duration="2000">
+                    <h5 class="text-light text-center mb-4">Write me your project</h5>
+                    <form onsubmit="sendEmail();reset();">
+                        <div class="form-group position-relative mb-5">
+                            <span class="position-absolute bg-primary text-color" >Name</span>
+                            <input class="form-control py-3 px-3 text-light fs-8" autocomplete="off" type="text" placeholder="Your Name" id="name">
+                        </div>
+
+                        <div class="form-group position-relative mb-5">
+                            <span class="position-absolute bg-primary text-color" >Mail</span>
+                            <input class="form-control py-3 px-3 text-light fs-8" autocomplete="off" type="email" placeholder="Your Email" id="mail">
+                        </div>
+                        
+                        <div class="form-group position-relative mb-5">
+                            <span class="position-absolute bg-primary text-color" >Project</span>
+                            <textarea rows="6" class="form-control py-3 px-3 text-light fs-8" autocomplete="off" type="text" placeholder="Your Project" id="project"></textarea>
+                        </div>
+
+                        <button class="btn btn-secondary rounded-3 px-3 fs-8 py-2 text-primary" type="submit" data-bs-target="#form" data-bs-toggle="modal">Send Message</button>
+
+                    </form>
+                </div>
+                <div class="modal fade" id="form" data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content rounded-4 bg-primary">
+                            <div class="modal-header border-bottom-0 p-4">
+                                <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body px-2 px-sm-4 pt-0 text-color">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+   </section>
+
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+                                    <!-- footer -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <footer class="pt-4 pb-5 bg-secondary">
+        <div class="contener px-m d-5">
+            <div class="section-header text-center py-2 mb-2">
+                <h2 class="text-primary fs-3">portfolio</h2>
+            </div>
+
+            <ul class="navbar-nav justify-content-evenly flex-row mx-auto">
+                <li class="nav-item"><a href="#about" class="nav-link text-primary">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-primary">Project</a></li>
+                <li class="nav-item"><a href="#test" class="nav-link text-primary">Testimonial</a></li>
+            </ul>
+
+            <div class="accounts d-flex justify-content-evenly mx-auto mt-3 mb-5">
+                <div class="mysoc" style="--clr:#1877f2;">
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr" class="ibox d-flex align-items-center justify-content-center rounded-3" data-aos="zoom-in" data-aos-duration="2000">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </div>
+
+                <div class="mysoc" style="--clr:#000;">
+                    <a href="https://www.instagram.com/moo.fat7y/" class="ibox d-flex align-items-center justify-content-center rounded-3" data-aos="zoom-in" data-aos-duration="2000">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+
+                <div class="mysoc" style="--clr:#06cf9c;">
+                    <a href="https://api.whatsapp.com/send?phone=+201210192476&text=Hello Mohamed" class="ibox d-flex align-items-center justify-content-center rounded-3" data-aos="zoom-in" data-aos-duration="2000">
+                        <i class="bi bi-whatsapp "></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="text-primary fs-8 text-center">&copy; moo.fat7y. All right reversed.</p>
+        </div>
+    </footer>
+    <script src="/scrollOut.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="/index.js" type="module"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+</html>
